@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libro de Visitantes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Libro de Visitantes</h1>
+    <form id="guestbookForm">
+        <label for="name" class="label">Nombre:</label>
+        <input type="text" id="name" name="name" required class="input">
+        <br>
+        <br>
+        <label for="message" class="label">Mensaje:</label>
+        <br>
+        <textarea id="message" name="message" required class="textarea"></textarea>
+        <br>
+        <button type="submit" class="button">Enviar</button>
+    </form>
+    <div id="responseMessage"></div>
+    <h2>Mensajes:</h2>
+    <div id="messages" class="messages"></div>
+    <script src="scripts.js"></script>
+</body>
+</html>
